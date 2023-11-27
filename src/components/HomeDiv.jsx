@@ -7,7 +7,7 @@ const HomeDiv = () => {
     <div id="homeDiv">
       <video
         className="background"
-        src="src/Video/keyboard.mp4"
+        src="/Video/keyboard.mp4"
         autoPlay
         loop
         muted
