@@ -5,7 +5,7 @@ const Contact = () => {
     <div id="contactDiv">
       <video
         className="background relative"
-        src="src/Video/tennis.mp4"
+        src="/Video/tennis.mp4"
         autoPlay
         loop
         muted
