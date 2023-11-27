@@ -13,7 +13,7 @@ const Project = () => {
         </div>
         <ul className="projectsList">
           <li>
-            <img src="src/image/notes.png" alt="" />
+            <img src="/image/notes.png" alt="" />
             <div className="projectsContent">
               <h1>Notes</h1>
               <p>
@@ -29,7 +29,7 @@ const Project = () => {
           </li>
 
           <li>
-            <img src="src/image/youtube.png" alt="" />
+            <img src="/image/youtube.png" alt="" />
             <div className="projectsContent">
               <h1>Youtube Clone</h1>
               <p>
@@ -48,7 +48,7 @@ const Project = () => {
           </li>
 
           <li>
-            <img src="src/image/calculator.png" alt="" />
+            <img src="/image/calculator.png" alt="" />
             <div className="projectsContent">
               <h1>Calculator</h1>
               <p>
@@ -65,7 +65,7 @@ const Project = () => {
           </li>
 
           <li>
-            <img src="src/image/qouteGenerator.png" alt="" />
+            <img src="/image/qouteGenerator.png" alt="" />
             <div className="projectsContent">
               <h1>Qoute's Generator</h1>
               <p>
@@ -85,7 +85,7 @@ const Project = () => {
           </li>
 
           <li>
-            <img src="src/image/chatty.png" alt="" />
+            <img src="/image/chatty.png" alt="" />
             <div className="projectsContent">
               <h1>Chatty</h1>
               <p>
