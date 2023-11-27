@@ -1,0 +1,63 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  font-weight: 600;
+  position: fixed;
+  height: 8vh;
+  background-color: whitesmoke;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+#profileDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.3rem;
+}
+
+#profileDiv img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.navigationDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navigationDiv ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.navigationDiv ul li {
+  cursor: pointer;
+}
+
+.navigationDiv ul li a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.navigationDiv ul li::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  display: block;
+  background-color: black;
+  transition: 200ms ease-in;
+  transform: scale(0, 0);
+}
+
+.navigationDiv ul li:hover::after {
+  transform: scale(1, 1);
+}

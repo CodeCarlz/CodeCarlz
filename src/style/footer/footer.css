@@ -1,0 +1,63 @@
+.footerDiv {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+.footerMain {
+  width: 80vw;
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  height: 70%;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.footerTop-Left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerTop h1{
+  font-size: 24px;
+}
+
+.footerTop-Left p{
+  max-width: 50ch;
+  font-size: 16px;
+}
+
+.footerTop-Right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerTop-Right ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.footerTop-Right a svg {
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footerBottom a{
+  color: white;
+}

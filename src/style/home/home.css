@@ -1,0 +1,79 @@
+#homeDiv {
+  height: 100vh;
+  /* background-color: blue; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 12rem; */
+}
+
+
+
+.homeHeroSocial {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  border: 2px solid white;
+  position: absolute;
+  left: 0;
+  list-style: none;
+}
+.homeHeroSocial li {
+  border-bottom: 1px solid white;
+  padding: 8px;
+  transition: 200ms ease-in;
+}
+
+.homeHeroSocial li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.homeHeroSocial li svg {
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+
+.homeHero {
+  display: flex;
+  justify-content: center;
+}
+
+.homeHeroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeHeroContent h1 {
+  font-size: 3rem;
+}
+
+.homeHeroContent p {
+  font-size: 1.5rem;
+  max-width: 50ch;
+}
+
+.homeHeroContent a {
+  max-width: fit-content;
+  font-size: 20px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.homeHeroContent a:hover {
+  color: rgb(100, 100, 255);
+  background-color: whitesmoke;
+}
