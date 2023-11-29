@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
@@ -13,7 +14,7 @@ const Project = () => {
         </div>
         <ul className="projectsList">
           <li>
-            <img src="/image/notes.png" alt="" />
+            <img src="/image/NoteApp.png" alt="" />
             <div className="projectsContent">
               <h1>Notes</h1>
               <p>
@@ -24,12 +25,12 @@ const Project = () => {
               <p>
                 Developer: <strong>John Karl Limjoco</strong>
               </p>
-              <button>Case Study</button>
+              <Link to="/notes">Case Study</Link>
             </div>
           </li>
 
           <li>
-            <img src="/image/youtube.png" alt="" />
+            <img src="/image/Youtube.png" alt="" />
             <div className="projectsContent">
               <h1>Youtube Clone</h1>
               <p>
@@ -48,7 +49,7 @@ const Project = () => {
           </li>
 
           <li>
-            <img src="/image/calculator.png" alt="" />
+            <img src="/image/Calculator.png" alt="" />
             <div className="projectsContent">
               <h1>Calculator</h1>
               <p>
@@ -65,7 +66,7 @@ const Project = () => {
           </li>
 
           <li>
-            <img src="/image/qouteGenerator.png" alt="" />
+            <img src="/image/QouteGenerator.png" alt="" />
             <div className="projectsContent">
               <h1>Qoute's Generator</h1>
               <p>
@@ -85,7 +86,7 @@ const Project = () => {
           </li>
 
           <li>
-            <img src="/image/chatty.png" alt="" />
+            <img src="/image/Chatty.png" alt="" />
             <div className="projectsContent">
               <h1>Chatty</h1>
               <p>

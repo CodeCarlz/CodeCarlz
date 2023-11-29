@@ -5,16 +5,15 @@ import Contact from "./Contact";
 import Header from "./Header";
 import HomeDiv from "./HomeDiv";
 import Footer from "./Footer";
+import { Outlet } from "react-router-dom";
 
-const Home = () => {
+const Home = ({ children }) => {
   return (
     <>
-      <Header />
       <HomeDiv />
       <About />
       <Project />
       <Contact />
-      <Footer />
     </>
   );
 };
