@@ -25,7 +25,7 @@ const Project = () => {
               <p>
                 Developer: <strong>John Karl Limjoco</strong>
               </p>
-              <Link to="/notes">Case Study</Link>
+              <Link to="/notes" className="liveLink liveLink-Anchor">Case Study</Link>
             </div>
           </li>
 

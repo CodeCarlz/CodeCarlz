@@ -25,16 +25,18 @@ const ProjectDiv = () => {
             <div className="bottomTitle">
               <h1>Notes Application</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aliquid, aut.
+                I decided to recreate the Frontend of Note Web Application as I
+                got attracted to their beautiful UI and it was a great
+                opportunity for me to showcase my frontend skills by rebuilding
+                the UI and it ended up being a great experience for me.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aliquid, aut.
+                I used my frontend tools to build the User Interface which works
+                on all types of devices along with the SPA library to make the
+                frontend perform faster.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aliquid, aut.
+                Feel free to check out the Project by visiting the Live Link.
               </p>
             </div>
             <div className="bottomTool">
@@ -58,7 +60,22 @@ const ProjectDiv = () => {
             </div>
             <div className="bottomLive">
               <h1>SEE LIVE</h1>
-              <button className="liveLink">button</button>
+              <div className="buttonDiv">
+                <a
+                  href="https://github.com/CodeCarlz/sticky-note---React"
+                  className="liveLink liveLink-Anchor"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://sticky-notes-react-codecarlz.vercel.app/"
+                  className="liveLink liveLink-Anchor"
+                  target="_blank"
+                >
+                  Vercel
+                </a>
+              </div>
             </div>
           </div>
         </div>

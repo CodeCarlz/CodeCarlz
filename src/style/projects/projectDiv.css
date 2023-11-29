@@ -1,7 +1,12 @@
 .projectTitle {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(/public/image/common-bg.svg);
+  background-image: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url(/public/image/common-bg.svg);
   background-size: cover;
   background-position: center;
   padding: 7rem 1rem;
@@ -19,7 +24,7 @@
 }
 
 .projectTitleContent h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .projectTitleContent p {
@@ -34,9 +39,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  max-height: 100%;
+  /* max-height: fit-content; */
   /* max-height: fit-content; */
   /* background-color: blue; */
+  /* min-height: 150; */
+  margin-top: 5rem 0;
   padding: 5rem 0;
 }
 
@@ -47,23 +55,50 @@
 
 .projectContentBottom {
   display: flex;
-  width: 50vw;
+  width: 90vw;
   /* background-color: red; */
   margin-top: 50px;
+  justify-content: center;
+  /* min-height: 5000px; */
 }
 
 .porjectBottomMain {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
+  /* justify-content: center; */
   /* align-items: center; */
   /* min-height: fit-content; */
   /* height: 100vh; */
   gap: 50px;
+  max-width: 50vw;
+  /* min-height: 500px; */
+  /* height: 500px; */
 }
 
 .bottomTitle {
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 20px;
+  letter-spacing: 0.5px;
+}
+
+.bottomTitle p {
+  font-size: 18px;
+}
+
+.liveLink-Anchor {
+  text-decoration: none;
+}
+
+.bottomLive {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttonDiv{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
