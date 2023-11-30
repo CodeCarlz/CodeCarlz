@@ -10,6 +10,7 @@
   background-size: cover;
   background-position: center;
   padding: 7rem 1rem;
+  /* min-width: 400px; */
 }
 
 .projectTitleContent {
@@ -49,14 +50,13 @@
 }
 
 .projectContent img {
-  width: 50%;
-  height: 50%;
+  max-width: 50%;
+  max-height: 50%;
 }
 
 .projectContentBottom {
   display: flex;
   width: 90vw;
-  /* background-color: red; */
   margin-top: 50px;
   justify-content: center;
   /* min-height: 5000px; */
@@ -71,9 +71,10 @@
   /* min-height: fit-content; */
   /* height: 100vh; */
   gap: 50px;
-  max-width: 50vw;
+  max-width: 60vw;
   /* min-height: 500px; */
   /* height: 500px; */
+  transition: 500ms ease;
 }
 
 .bottomTitle {
@@ -97,8 +98,76 @@
   gap: 10px;
 }
 
-.buttonDiv{
+.buttonDiv {
   display: flex;
   flex-direction: row;
   gap: 20px;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 1280px) {
+  .projectTitleContent {
+    width: 80vw;
+  }
+
+  .projectContent img {
+    max-width: 60vw;
+  }
+
+  .porjectBottomMain {
+    max-width: 80%;
+  }
+
+  .footerMain {
+    min-width: 90vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .projectTitleContent {
+    width: 80vw;
+  }
+
+  .projectContent img {
+    max-width: 70vw;
+  }
+
+  .porjectBottomMain {
+    max-width: 90%;
+  }
+
+  .footerMain {
+    min-width: 90vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projectTitleContent {
+    width: 100vw;
+    min-width: 600px;
+  }
+
+  .projectContent img {
+    max-width: 85vw;
+    min-width: 400px;
+  }
+
+  .porjectBottomMain {
+    max-width: 100%;
+    min-width: 80vw;
+  }
+  .projectContentBottom {
+    /* background-color: violet; */
+    min-width: 400px;
+  }
+
+  .footerMain {
+    min-width: 80%;
+  }
+
+  .footerDiv {
+    /* min-width: 100%; */
+    /* background-color: blue; */
+  }
 }
