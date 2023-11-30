@@ -4,10 +4,11 @@ import "../src/style/home/home.css";
 import "../src/style/about/aboutMe.css";
 import "../src/style/projects/projects.css";
 import "../src/style/contact/contact.css";
+import "./style/responsive.css/responsiveness.css";
 import Home from "./components/Home.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
-import ProjectDiv from "./components/ProjectDiv.jsx";
+import NotePage from "./components/pages/NotePage.jsx";
 
 import { Link, Route, Routes, useLocation } from "react-router-dom";
 import { useEffect } from "react";
@@ -24,7 +25,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/notes" element={<ProjectDiv />}></Route>
+        <Route path="/notes" element={<NotePage />}></Route>
       </Routes>
       <Footer />
     </>

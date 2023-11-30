@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./Header";
-import "../style/projects/projectDiv.css";
+import Header from "../Header";
+import "../../style/projects/page.css";
 
-const ProjectDiv = () => {
+const NotePage = () => {
   return (
     <>
       <div className="projectTitle">
@@ -84,4 +84,4 @@ const ProjectDiv = () => {
   );
 };
 
-export default ProjectDiv;
+export default NotePage;
