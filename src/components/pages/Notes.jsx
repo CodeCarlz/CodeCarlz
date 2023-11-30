@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Header";
 import "../../style/projects/page.css";
 
-const NotePage = () => {
+const Notes = () => {
   return (
     <>
       <div className="projectTitle">
@@ -13,8 +13,12 @@ const NotePage = () => {
             includes the Project Overview, Tools Used and Live Links to the
             official product.
           </p>
-          <a href="" className="liveLink">
-            github
+          <a
+            href="https://github.com/CodeCarlz/sticky-note---React"
+            className="liveLink liveLink-Anchor"
+            target="_blank"
+          >
+            GitHub
           </a>
         </div>
       </div>
@@ -47,14 +51,8 @@ const NotePage = () => {
                   <li>CSS</li>
                   <li>JavaScript</li>
                   <li>React JS</li>
-                  <li>C#</li>
-                  <li>C</li>
-                  <li>C++</li>
-                  <li>VB.net</li>
-                  <li>Cypress</li>
-                  <li>Playwright</li>
-                  <li>SQL</li>
-                  <li>Git & GitHub</li>
+                  <li>Git</li>
+                  <li>GitHub</li>
                 </ul>
               </div>
             </div>
@@ -84,4 +82,4 @@ const NotePage = () => {
   );
 };
 
-export default NotePage;
+export default Notes;

@@ -25,7 +25,9 @@ const Project = () => {
               <p>
                 Developer: <strong>John Karl Limjoco</strong>
               </p>
-              <Link to="/notes" className="liveLink liveLink-Anchor">Case Study</Link>
+              <Link to="/notes" className="liveLink liveLink-Anchor">
+                Case Study
+              </Link>
             </div>
           </li>
 
@@ -44,7 +46,9 @@ const Project = () => {
               <p>
                 Developer: <strong>John Karl Limjoco</strong>
               </p>
-              <button>Case Study</button>
+              <Link to="/youtube" className="liveLink liveLink-Anchor">
+                Case Study
+              </Link>
             </div>
           </li>
 
@@ -61,7 +65,9 @@ const Project = () => {
               <p>
                 Front-End Developer: <strong>John Karl Limjoco</strong>
               </p>
-              <button>Case Study</button>
+              <Link to="/calculator" className="liveLink liveLink-Anchor">
+                Case Study
+              </Link>
             </div>
           </li>
 
@@ -81,7 +87,9 @@ const Project = () => {
               <p>
                 Developer: <strong>John Karl Limjoco</strong>
               </p>
-              <button>Case Study</button>
+              <Link to="/qoutes" className="liveLink liveLink-Anchor">
+                Case Study
+              </Link>
             </div>
           </li>
 
@@ -105,7 +113,9 @@ const Project = () => {
               <p>
                 Back-End Developer: <strong>Rahul Rajput</strong>
               </p>
-              <button>Case Study</button>
+              <Link to="/chatty" className="liveLink liveLink-Anchor">
+                Case Study
+              </Link>
             </div>
           </li>
         </ul>

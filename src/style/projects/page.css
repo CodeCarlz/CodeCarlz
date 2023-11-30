@@ -10,7 +10,6 @@
   background-size: cover;
   background-position: center;
   padding: 7rem 1rem;
-  /* min-width: 400px; */
 }
 
 .projectTitleContent {
@@ -41,10 +40,6 @@
   justify-content: center;
   align-items: center;
   max-height: 100%;
-  /* max-height: fit-content; */
-  /* max-height: fit-content; */
-  /* background-color: blue; */
-  /* min-height: 150; */
   margin-top: 5rem 0;
   padding: 5rem 0;
 }
@@ -65,15 +60,8 @@
 .porjectBottomMain {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* min-height: fit-content; */
-  /* height: 100vh; */
   gap: 50px;
-  max-width: 60vw;
-  /* min-height: 500px; */
-  /* height: 500px; */
+  max-width: 50vw;
   transition: 500ms ease;
 }
 
@@ -103,4 +91,3 @@
   flex-direction: row;
   gap: 20px;
 }
-
