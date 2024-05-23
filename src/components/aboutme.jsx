@@ -29,12 +29,12 @@ const Aboutme = () => {
               <span className="text-black"> Philippines. </span>
             </p>
             <p>
-              I am actively seeking a{" "}
+              I am actively seeking a
               <span className="text-black"> developer </span> role to enhance my
               skills and gain real-world experience. I am a
               <span className="text-black">quick learner</span>, able to
               <span className="text-black">work under pressure</span>, and eager
-              to adopt new technologies to contribute{" "}
+              to adopt new technologies to contribute
               <span className="text-black">effectively</span>.
             </p>
             <Button variant="lightblue" className="w-fit mt-2">
@@ -45,7 +45,7 @@ const Aboutme = () => {
             <h1 className="text-xl font-semibold">My Skills</h1>
             <ul className="flex flex-wrap max-w-lg gap-4">
               {skillList.map((skill, index) => (
-                <li className="bg-gray-300 px-3 py-1 rounded-xl" key={index12:27  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities}>
+                <li className="bg-gray-300 px-3 py-1 rounded-xl" key={index}>
                   {skill}
                 </li>
               ))}
