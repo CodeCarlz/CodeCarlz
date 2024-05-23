@@ -42,7 +42,7 @@ const Homepage = () => {
             solutions. Let&apos;s elevate your projects together.
           </p>
           <Button className="mt-5 w-fit" variant="secondary">
-            <a href="#projectsDiv">PROJECTS</a>
+            <a href="#projects">PROJECTS</a>
           </Button>
 
           {/* <Link to="/about" id="projectBtn">
