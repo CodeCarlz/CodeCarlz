@@ -188,7 +188,7 @@ export const projectListItem = [
     },
     image: "/image/passwordGen.png",
     url: {
-      projectUrl: "/project/passwordGen",
+      projectUrl: "/project/password",
       github: "https://github.com/CodeCarlz/passwordGenerator",
       vercel: "https://password-generator-codecarlz.vercel.app/",
     },
