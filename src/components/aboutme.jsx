@@ -24,16 +24,19 @@ const Aboutme = () => {
               Get to know me!
             </h1>
             <p>
-              Hey! It's <strong>John Karl</strong> and I'm a{" "}
-              <strong>Web Developer</strong> Located in{" "}
-              <strong>Philippines.</strong>{" "}
+              Hey! It&apos;s <span className="text-black">John Karl</span> and
+              I&apos;m a<span className="text-black"> Web Developer </span>
+              located in the
+              <span className="text-black"> Philippines.</span>
             </p>
             <p>
-              I am Actively seeking a <strong>developer</strong> role to
-              enchance my skills and gain real-world experience. I am a{" "}
-              <strong>quick learner</strong>, able to{" "}
-              <strong>work under pressure</strong>, and eager to adopt new
-              technologies to contribute <strong>Effectively</strong>
+              I am actively seeking a
+              <span className="text-black"> developer </span> role to enhance my
+              skills and gain real-world experience. I am a
+              <span className="text-black"> quick learner</span>, able to
+              <span className="text-black"> work under pressure</span>, and
+              eager to adopt new technologies to contribute
+              <span className="text-black"> effectively</span>.
             </p>
 
             {/* <p>
