@@ -23,7 +23,7 @@ const Projects = () => {
           </p>
         </div>
         {projectListItem.map((project, index) => (
-          <Projectitem project={project}/>
+          <Projectitem project={project} key={index} />
         ))}
       </div>
     </div>

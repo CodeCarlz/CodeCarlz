@@ -60,8 +60,11 @@ const Page = ({ params }) => {
               <div className="flex flex-col gap-2">
                 <h1 className="text-xl font-semibold">Tools Used</h1>
                 <ul className="flex flex-wrap  gap-4">
-                  {selectedProject.tools.toolUsed.map((skill) => (
-                    <li className="bg-gray-300 px-3 py-1 rounded-xl">
+                  {selectedProject.tools.toolUsed.map((skill, index) => (
+                    <li
+                      className="bg-gray-300 px-3 py-1 rounded-xl"
+                      key={index}
+                    >
                       {skill}
                     </li>
                   ))}
