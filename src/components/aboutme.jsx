@@ -32,10 +32,10 @@ const Aboutme = () => {
               I am actively seeking a
               <span className="text-black"> developer </span> role to enhance my
               skills and gain real-world experience. I am a
-              <span className="text-black">quick learner</span>, able to
-              <span className="text-black">work under pressure</span>, and eager
-              to adopt new technologies to contribute
-              <span className="text-black">effectively</span>.
+              <span className="text-black"> quick learner</span>, able to
+              <span className="text-black"> work under pressure</span>, and
+              eager to adopt new technologies to contribute
+              <span className="text-black"> effectively</span>.
             </p>
             <Button variant="lightblue" className="w-fit mt-2">
               <a href="#contactDiv">CONTACT</a>
