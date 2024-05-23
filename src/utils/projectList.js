@@ -167,4 +167,83 @@ export const projectListItem = [
       vercel: "https://random-qoute-codecarlz.vercel.app/",
     },
   },
+  {
+    title: "Password Generator",
+    description: {
+      half: " Tailored for those seeking daily motivation or a spark of creativity, our Quote Generator promises a delightful journey through the power of words.",
+      full: {
+        first:
+          " As part of my commitment to continuous learning and creative exploration in the field of web development, I've undertaken the development of a Quote Generator application.",
+        second:
+          " I aim to hone my skills in frontend development while contributing a valuable resource to those seeking inspiration in their daily lives.",
+      },
+    },
+    tools: {
+      toolDescription: "This project is built using Html, Css, Javascript",
+      toolUsed: ["Html", "CSS", "Javascript"],
+    },
+    developer: {
+      frontend: "John Karl Limjoco",
+      backend: "",
+    },
+    image: "/image/passwordGen.png",
+    url: {
+      projectUrl: "/project/qoute's",
+      github: "https://github.com/CodeCarlz/passwordGenerator",
+      vercel: "https://password-generator-codecarlz.vercel.app/",
+    },
+  },
+  {
+    title: "Youtube Downloader",
+    description: {
+      half: "Our YouTube Downloader provides a seamless and efficient way to download YouTube videos for offline viewing, ensuring you can enjoy content anytime, anywhere.",
+      full: {
+        first:
+          "In my effort to create practical tools for everyday use, I developed a YouTube Downloader application.",
+        second:
+          "This project allowed me to enhance my frontend development skills using ReactJS while offering users a reliable way to download YouTube videos.",
+      },
+    },
+    tools: {
+      toolDescription:
+        "This project is built using Html, Css, Javascript, ReactJs data manage through (Youtube Downloader API)",
+      toolUsed: ["Html", "CSS", "Javascript", "ReactJS"],
+    },
+    developer: {
+      frontend: "John Karl Limjoco",
+      backend: "",
+    },
+    image: "/image/YoutubeDownloader.png",
+    url: {
+      projectUrl: "/project/qoute's",
+      github: "https://github.com/CodeCarlz/youtube-Downloader",
+      vercel: "https://youtube-downloader-kohl.vercel.app/",
+    },
+  },
+  {
+    title: "Weather App",
+    description: {
+      half: "Our Weather App provides accurate and real-time weather information, helping you stay prepared for any weather conditions.",
+      full: {
+        first:
+          "In my quest to develop useful and informative applications, I created a Weather App.",
+        second:
+          "This project allowed me to enhance my frontend development skills using ReactJS while providing users with up-to-date weather data.",
+      },
+    },
+    tools: {
+      toolDescription: "This project is built using Html, Css, Javascript",
+      toolUsed: ["Html", "CSS", "Javascript"],
+    },
+    developer: {
+      frontend: "John Karl Limjoco",
+      backend: "",
+    },
+    image: "/image/weatherApp.png",
+    url: {
+      projectUrl: "/project/qoute's",
+      github: "https://github.com/CodeCarlz/weather-app",
+      vercel: "https://weather-app-codecarlz.vercel.app/",
+    },
+  },
 ];
