@@ -24,6 +24,19 @@ const Aboutme = () => {
               Get to know me!
             </h1>
             <p>
+              Hey! It's <strong>John Karl</strong> and I'm a{" "}
+              <strong>Web Developer</strong> Located in{" "}
+              <strong>Philippines.</strong>{" "}
+            </p>
+            <p>
+              I am Actively seeking a <strong>developer</strong> role to
+              enchance my skills and gain real-world experience. I am a{" "}
+              <strong>quick learner</strong>, able to{" "}
+              <strong>work under pressure</strong>, and eager to adopt new
+              technologies to contribute <strong>Effectively</strong>
+            </p>
+
+            {/* <p>
               Hey! It's <span className="text-black">John Karl</span> and I'm a
               <span className="text-black"> Web Developer </span>located in
               <span className="text-black"> Philippines. </span>
@@ -36,7 +49,7 @@ const Aboutme = () => {
               <span className="text-black"> work under pressure</span>, and
               eager to adopt new technologies to contribute
               <span className="text-black"> effectively</span>.
-            </p>
+            </p> */}
             <Button variant="lightblue" className="w-fit mt-2">
               <a href="#contactDiv">CONTACT</a>
             </Button>
