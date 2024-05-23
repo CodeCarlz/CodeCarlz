@@ -4,7 +4,7 @@ import React from "react";
 
 const Header = ({ home, about, project }) => {
   return (
-    <div className="fixed z-20 h-[70px] w-full flex justify-center md:justify-between items-center px-10 bg-white">
+    <div className="fixed z-20 h-[70px] w-full flex justify-center md:justify-between items-center px-10 bg-gray-100">
       <Link href={"/"}>
         <div id="profileDiv" className="hidden md:flex items-center gap-2">
           <div className="h-[60px] w-[60px] flex items-center justify-center rounded-full overflow-hidden border-2 border-black ">
