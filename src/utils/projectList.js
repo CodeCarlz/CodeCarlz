@@ -188,7 +188,7 @@ export const projectListItem = [
     },
     image: "/image/passwordGen.png",
     url: {
-      projectUrl: "/project/qoute's",
+      projectUrl: "/project/passwordGen",
       github: "https://github.com/CodeCarlz/passwordGenerator",
       vercel: "https://password-generator-codecarlz.vercel.app/",
     },
@@ -215,7 +215,7 @@ export const projectListItem = [
     },
     image: "/image/YoutubeDownloader.png",
     url: {
-      projectUrl: "/project/qoute's",
+      projectUrl: "/project/downloader",
       github: "https://github.com/CodeCarlz/youtube-Downloader",
       vercel: "https://youtube-downloader-kohl.vercel.app/",
     },
@@ -241,7 +241,7 @@ export const projectListItem = [
     },
     image: "/image/weatherApp.png",
     url: {
-      projectUrl: "/project/qoute's",
+      projectUrl: "/project/weather",
       github: "https://github.com/CodeCarlz/weather-app",
       vercel: "https://weather-app-codecarlz.vercel.app/",
     },
