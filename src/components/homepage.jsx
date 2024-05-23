@@ -39,7 +39,7 @@ const Homepage = () => {
           </h1>
           <p className="max-w-[30ch] md:max-w-[50ch] text-sm md:text-lg">
             As a web developer, I offer expertise in creating impactful digital
-            solutions. Let's elevate your projects together.
+            solutions. Let&apos;s elevate your projects together.
           </p>
           <Button className="mt-5 w-fit" variant="secondary">
             <a href="#projectsDiv">PROJECTS</a>

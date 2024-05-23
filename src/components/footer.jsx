@@ -9,7 +9,7 @@ const Footer = () => {
           <h1 className="text-2xl font-semibold">John Karl Limjoco</h1>
           <p className="md:max-w-[30ch] lg:max-w-[50ch] text-ellipsis line-clamp-3">
             As a web developer, I offer expertise in creating impactful digital
-            solutions. Let's elevate your projects together.
+            solutions. Let&apos;s elevate your projects together.
           </p>
         </div>
         <div className="max-w-[50ch] min-w-[30ch] flex flex-col items-center justify-center ">
