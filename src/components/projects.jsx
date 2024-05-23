@@ -13,7 +13,7 @@ const Projects = () => {
       className="h-full w-full flex justify-center items-center "
       id="projects"
     >
-      <div className="bg- h-full w-[90vw] flex flex-col gap-28 py-10">
+      <div className="bg- h-full w-[90vw] flex flex-col gap-28 py-10 pt-20 ">
         <div className="flex flex-col gap-2 items-center justify-center ">
           <h1 className="text-2xl font-semibold">PROJECTS</h1>
           <Borderspan />
