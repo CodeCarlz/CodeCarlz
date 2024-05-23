@@ -44,8 +44,10 @@ const Aboutme = () => {
           <div className="aboutMeBottom-right text-center flex flex-col gap-5 min-w-[240px]">
             <h1 className="text-xl font-semibold">My Skills</h1>
             <ul className="flex flex-wrap max-w-lg gap-4">
-              {skillList.map((skill) => (
-                <li className="bg-gray-300 px-3 py-1 rounded-xl">{skill}</li>
+              {skillList.map((skill, index) => (
+                <li className="bg-gray-300 px-3 py-1 rounded-xl" key={index12:27  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities}>
+                  {skill}
+                </li>
               ))}
             </ul>
           </div>
