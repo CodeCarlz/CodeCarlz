@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 
 const Projectitem = ({ project }) => {
-  console.log(project);
+
   return (
     <div className="flex gap-5 md:gap-20 flex-col items-center  md:flex-row">
       <div className="max-h-[600px] max-w-[600px]">

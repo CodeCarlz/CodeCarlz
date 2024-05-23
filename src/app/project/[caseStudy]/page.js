@@ -7,15 +7,13 @@ import { projectListItem } from "@/utils/projectList";
 import Link from "next/link";
 
 const Page = ({ params }) => {
-  console.log(params);
-
   const selectedProject = projectListItem.find((projectItem) =>
     projectItem.title.toLowerCase().includes(params.caseStudy)
   );
-  console.log(selectedProject);
+
   return (
     <>
-      <Header />
+      <Header home="/" about="/#about" project="/#projects" />
       <div className="h-full  bg--500  flex flex-col items-center  text-black">
         <div
           className="h-[500px] w-full flex flex-col justify-center items-center gap-3 pt-20 "

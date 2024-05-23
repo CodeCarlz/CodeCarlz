@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 import Projectitem from "./projectItem";
 import { projectListItem } from "@/utils/projectList";
 
-console.log(projectListItem);
+
 
 const Projects = () => {
   return (

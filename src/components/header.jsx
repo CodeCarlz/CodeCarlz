@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Header = () => {
+const Header = ({ home, about, project }) => {
   return (
     <div className="fixed z-20 h-[70px] w-full flex justify-center md:justify-between items-center px-10 bg-white">
       <Link href={"/"}>
@@ -20,13 +20,13 @@ const Header = () => {
       <div className="navigationDiv">
         <ul className="flex gap-5">
           <li>
-            <a href="/">HOME</a>
+            <a href={home}>HOME</a>
           </li>
           <li>
-            <a href="#about">ABOUT</a>
+            <a href={about}>ABOUT</a>
           </li>
           <li>
-            <a href="#projects">PROJECTS</a>
+            <a href={project}>PROJECTS</a>
           </li>
           {/* <li>
             <a href="#contact">CONTACTS</a>
