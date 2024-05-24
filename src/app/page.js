@@ -7,7 +7,7 @@ import Projects from "@/components/projects";
 export default function Home() {
   return (
     <div className="h-full w-full  ">
-      <Header home="/" about="#about" project="#projects" />
+      <Header home="#home" about="#about" project="#projects" />
       <Homepage />
       <Aboutme />
       <Projects />

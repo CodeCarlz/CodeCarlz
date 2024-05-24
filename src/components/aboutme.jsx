@@ -54,7 +54,7 @@ const Aboutme = () => {
               <span className="text-black"> effectively</span>.
             </p> */}
             <Button variant="lightblue" className="w-fit mt-2 tracking-wider">
-              <a href="/">HOME</a>
+              <a href="#home">HOME</a>
             </Button>
           </div>
           <div className="aboutMeBottom-right text-center flex flex-col gap-5 min-w-[240px]">

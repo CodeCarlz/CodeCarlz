@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 const Homepage = () => {
   return (
-    <div id="homeDiv" className="pt-[70px] relative">
+    <div id="home" className="pt-[70px] relative">
       <video
         className="object-cover h-screen w-full "
         src="/Video/keyboard.mp4"

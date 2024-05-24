@@ -13,7 +13,7 @@ const Page = ({ params }) => {
 
   return (
     <>
-      <Header home="/" about="/#about" project="/#projects" />
+      <Header home="/#home" about="/#about" project="/#projects" />
       <div className="h-full  bg--500  flex flex-col items-center  text-black">
         <div
           className="h-[500px] w-full flex flex-col justify-center items-center gap-3 pt-20 "
