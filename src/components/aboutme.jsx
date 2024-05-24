@@ -13,9 +13,9 @@ const Aboutme = () => {
         <div className="flex flex-col gap-2 items-center justify-center">
           <h1 className="text-2xl font-semibold tracking-wide">ABOUT ME</h1>
           <Borderspan />
-          <p className="max-w-[60ch] text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            exercitationem officiis reiciendis culpa, necessitatibus animi
+          <p className="max-w-[60ch] text-center ">
+            I thrive in fast-paced environments and enjoy tackling complex
+            challenges
           </p>
         </div>
         <div className="flex justify-around flex-col md:flex-row gap-20">

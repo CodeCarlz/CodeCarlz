@@ -15,9 +15,10 @@ const Projects = () => {
         <div className="flex flex-col gap-2 items-center justify-center ">
           <h1 className="text-2xl font-semibold tracking-wider">PROJECTS</h1>
           <Borderspan />
-          <p className="max-w-[60ch] text-center">
-            This application provides users with a digital platform to create,
-            manage, and organize their virtual sticky notes.
+          <p className="max-w-[60ch] text-center text-sm md:text-lg">
+            This page showcases all of my coding challenges and projects.
+            Explore a variety of applications and solutions I've developed,
+            demonstrating my skills and creativity in web development.
           </p>
         </div>
         {projectListItem.map((project, index) => (
