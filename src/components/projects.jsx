@@ -17,7 +17,7 @@ const Projects = () => {
           <Borderspan />
           <p className="max-w-[60ch] text-center text-sm md:text-lg">
             This page showcases all of my coding challenges and projects.
-            Explore a variety of applications and solutions I've developed,
+            Explore a variety of applications and solutions I&apos;ve developed,
             demonstrating my skills and creativity in web development.
           </p>
         </div>
