@@ -35,13 +35,13 @@ const Homepage = () => {
         </ul>
         <div className="homeHeroContent text-center flex flex-col gap-2 justify-center items-center text-white">
           <h1 className="text-lg md:text-2xl font-semibold">
-            HEY, MY NAME IS JOHN KARL
+            MY NAME IS JOHN KARL
           </h1>
           <p className="max-w-[30ch] md:max-w-[50ch] text-sm md:text-lg">
             As a web developer, I offer expertise in creating impactful digital
             solutions. Let&apos;s elevate your projects together.
           </p>
-          <Button className="mt-5 w-fit" variant="secondary">
+          <Button className="mt-5 w-fit tracking-wider" variant="secondary">
             <a href="#projects">PROJECTS</a>
           </Button>
 

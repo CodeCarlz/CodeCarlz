@@ -11,7 +11,7 @@ const Aboutme = () => {
     >
       <div className=" h-4/6 w-5/6 flex flex-col gap-28">
         <div className="flex flex-col gap-2 items-center justify-center">
-          <h1 className="text-2xl font-semibold">ABOUT ME</h1>
+          <h1 className="text-2xl font-semibold tracking-wide">ABOUT ME</h1>
           <Borderspan />
           <p className="max-w-[60ch] text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
@@ -53,8 +53,8 @@ const Aboutme = () => {
               eager to adopt new technologies to contribute
               <span className="text-black"> effectively</span>.
             </p> */}
-            <Button variant="lightblue" className="w-fit mt-2">
-              <a href="/">Home</a>
+            <Button variant="lightblue" className="w-fit mt-2 tracking-wider">
+              <a href="/">HOME</a>
             </Button>
           </div>
           <div className="aboutMeBottom-right text-center flex flex-col gap-5 min-w-[240px]">

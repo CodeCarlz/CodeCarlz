@@ -5,8 +5,6 @@ import { Button } from "./ui/button";
 import Projectitem from "./projectItem";
 import { projectListItem } from "@/utils/projectList";
 
-
-
 const Projects = () => {
   return (
     <div
@@ -15,7 +13,7 @@ const Projects = () => {
     >
       <div className="bg- h-full w-[90vw] flex flex-col gap-28 py-10 pt-20 ">
         <div className="flex flex-col gap-2 items-center justify-center ">
-          <h1 className="text-2xl font-semibold">PROJECTS</h1>
+          <h1 className="text-2xl font-semibold tracking-wider">PROJECTS</h1>
           <Borderspan />
           <p className="max-w-[60ch] text-center">
             This application provides users with a digital platform to create,

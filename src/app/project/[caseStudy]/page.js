@@ -29,7 +29,7 @@ const Page = ({ params }) => {
             Application Website which includes the Project Overview, Tools Used
             and Live Links to the official product.
           </p>
-          <Button variant="lightblue" className="w-fit ">
+          <Button variant="lightblue" className="w-fit tracking-wider ">
             <Link href={selectedProject.url.github} target="_blank">
               Github
             </Link>
@@ -71,12 +71,12 @@ const Page = ({ params }) => {
               <div className="flex flex-col gap-2">
                 <h1 className="text-xl font-semibold">SEE LIVE</h1>
                 <div className="flex gap-3">
-                  <Button variant="lightblue" className="">
+                  <Button variant="lightblue" className="tracking-wider">
                     <Link href={selectedProject.url.github} target="_blank">
                       Github
                     </Link>
                   </Button>
-                  <Button variant="lightblue" className="">
+                  <Button variant="lightblue" className="tracking-wider">
                     <Link href={selectedProject.url.vercel} target="_blank">
                       Vercel
                     </Link>
