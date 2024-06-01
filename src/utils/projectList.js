@@ -82,7 +82,7 @@ export const projectListItem = [
     },
     image: "/image/NoteApp.png",
     url: {
-      projectUrl: "/project/stickynote",
+      projectUrl: "/project/sticky",
       github: "https://github.com/CodeCarlz/sticky-note---React",
       vercel: "https://sticky-notes-react-codecarlz.vercel.app/",
     },
